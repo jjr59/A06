@@ -1,0 +1,81 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes sizing consistent */
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Improved line height for readability */
+    width: 600px; /* Fixed width for content */
+    margin: 0 auto; /* Center the body */
+    border: 3px solid #931420; /* Border around the body */
+    background-color: #ffffff; /* White background color */
+}
+
+/* Header styles */
+header {
+    text-align: left; /* Align text to the left */
+    padding: 20px 0; /* Padding for top and bottom */
+    border-bottom: 3px solid #931420; /* Bottom border */
+}
+
+/* H2 and H3 styles */
+h2 {
+    font-size: 170%; /* Font size for h2 */
+    color: #800000; /* Dark red color */
+    text-indent: 30px; /* Indentation */
+    margin: 15px 0; /* Margin for spacing */
+}
+
+h3 {
+    font-size: 130%; /* Font size for h3 */
+    font-style: italic; /* Italics */
+    text-indent: 30px; /* Indentation */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+/* Paragraph styles */
+p {
+    margin: 15px 0; /* Margin for spacing above and below */
+    text-align: left; /* Align text to the left */
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic; /* Italics for blockquote */
+    margin: 15px 0; /* Margin for spacing */
+    padding: 10px; /* Padding for blockquote */
+    border-left: 5px solid #931420; /* Left border */
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* List styles */
+ul {
+    margin: 15px 0; /* Margin for spacing */
+    padding-left: 20px; /* Indentation for list items */
+}
+
+/* Image styles */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Margin for spacing around images */
+}
+
+/* Footer styles */
+footer {
+    text-align: left; /* Align footer text to the left */
+    padding: 20px 0; /* Padding for footer */
+    background-color: #931420; /* Footer background color */
+    color: white; /* Footer text color */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Shadow class for text */
+.shadow {
+    text-shadow: 1px 1px 2px #800000; /* Shadow effect */
+}
